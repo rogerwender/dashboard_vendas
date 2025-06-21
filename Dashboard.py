@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
-import emoji
 
 st.set_page_config(layout = 'wide')
 
@@ -15,7 +14,7 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:.2f} milhões'
 
 # Criando o Titulo com Emoji do carrinho
-titulo = emoji.emojize('DASHBOARD DE VENDAS :shopping_cart:', language='alias')
+titulo = emoji.emojize('DASHBOARD DE VENDAS', language='alias')
 st.title(titulo)
 
 # Criando o Dataframe dos dados
