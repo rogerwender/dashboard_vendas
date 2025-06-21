@@ -14,7 +14,7 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:.2f} milhões'
 
 # Criando o Titulo com Emoji do carrinho
-titulo = emoji.emojize('DASHBOARD DE VENDAS', language='alias')
+titulo = 'DASHBOARD DE VENDAS'
 st.title(titulo)
 
 # Criando o Dataframe dos dados
